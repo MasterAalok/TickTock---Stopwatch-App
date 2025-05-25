@@ -89,3 +89,28 @@ body {
     background-color: #05a0dd;
     transform: scale(1.1);
 }
+
+footer {
+    background: rgba(0, 0, 0, 0.107);
+    color: #fff;
+    padding: 49px 0px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 37px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: rgb(14, 112, 161);
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ffffff;
+
+}
