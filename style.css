@@ -93,24 +93,50 @@ body {
 footer {
     background: rgba(0, 0, 0, 0.107);
     color: #fff;
-    padding: 49px 0px;
+    padding: 40px 20px;
     text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.social-icons {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
 }
 
 .social-icons a {
     color: #fff;
-    margin: 0 15px;
-    font-size: 37px;
-    transition: color 0.3s ease;
+    font-size: 36px;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .social-icons a:hover {
     color: rgb(14, 112, 161);
+    transform: scale(1.2);
+}
+
+.social-icons a:active {
+    transform: scale(0.9);
 }
 
 .copyright {
-    margin-top: 10px;
     font-size: 14px;
     color: #ffffff;
+}
 
+@media (max-width: 600px) {
+    .social-icons a {
+        font-size: 30px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    footer {
+        padding: 30px 15px;
+    }
 }

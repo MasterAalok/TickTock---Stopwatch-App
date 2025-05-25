@@ -48,5 +48,6 @@ startBtn.addEventListener("click", startTimer);
 pauseBtn.addEventListener("click", pauseTimer);
 restartBtn.addEventListener("click", resetTimer);
 
-// Initialize display
 updateDisplay();
+
+document.getElementById("year").textContent = new Date().getFullYear();
